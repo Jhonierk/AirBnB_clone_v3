@@ -1,3 +1,4 @@
+const $ = window.$;
 $(document).ready(() => {
 	if ($('input[type="checkbox"]:checked').length > 0 == true) $('input[type="checkbox"]:checked').prop("checked", false);
 
